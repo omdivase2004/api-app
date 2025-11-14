@@ -31,7 +31,7 @@ const PostData = () => {
     return (
         <div>
             <h1 className="text-center text-5xl my-8">
-                Post Data
+               This is Post  Data
             </h1>
             {
                 data.map(post => <div key={post.id} className="mb-5 px-10">
